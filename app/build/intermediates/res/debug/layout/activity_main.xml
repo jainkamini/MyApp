@@ -1,0 +1,74 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="@string/my_nanodegree"
+            android:textSize="26sp" />
+
+        <Button
+            android:id="@+id/btnSpotifyStreamer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginTop="26dp"
+            android:background="@color/orange"
+            android:onClick="launchApp"
+            android:text="@string/button_spotify_streamer" />
+
+
+        <Button
+
+            android:id="@+id/btnScoresApp"
+
+android:onClick="launchApp"
+            style="@style/button_style"
+
+            android:text="@string/button_scores_app" />
+
+        <Button
+            android:id="@+id/btnLibraryApp"
+            style="@style/button_style"
+            android:onClick="launchApp"
+            android:text="@string/button_libray_app" />
+
+        <Button
+            android:id="@+id/btnBuildItBigger"
+            style="@style/button_style"
+            android:onClick="launchApp"
+            android:text="@string/button_build_it_bigger" />
+
+        <Button
+            android:id="@+id/btnXyzReader"
+            style="@style/button_style"
+            android:onClick="launchApp"
+            android:text="@string/button_xyz_reader" />
+
+        <Button
+            android:id="@+id/btncapstons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@color/red"
+            android:onClick="launchApp"
+            android:text="@string/button_capstone" />
+
+
+    </LinearLayout>
+</ScrollView><!-- From: file:/C:/Users/Kamini/AndroidStudioProjects/MyAppPortfolio/app/src/main/res/layout/activity_main.xml -->
